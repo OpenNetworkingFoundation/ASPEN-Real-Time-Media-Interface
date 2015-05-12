@@ -32,10 +32,10 @@ public class ApplicationConfig extends Application {
      */
     private Set<Class<?>> getRestResourceClasses() {
         Set<Class<?>> resources = new java.util.HashSet<Class<?>>();
+        resources.add(org.onf.aspen.realtimemedia.impl.PolicyElementFacadeREST.class);
+        resources.add(org.onf.aspen.realtimemedia.impl.SessionElementFacadeREST.class);
         resources.add(org.tmf.dsmapi.common.impl.BadUsageExceptionMapper.class);
         resources.add(org.tmf.dsmapi.common.impl.JacksonConfigurator.class);
-        resources.add(org.tmf.dsmapi.inventory.resource.impl.PolicyElementFacadeREST.class);
-        resources.add(org.tmf.dsmapi.inventory.resource.impl.SessionElementFacadeREST.class);
         // following code can be used to customize Jersey 1.x JSON provider:
         try {
             Class jacksonProvider = Class.forName("org.codehaus.jackson.jaxrs.JacksonJsonProvider");
