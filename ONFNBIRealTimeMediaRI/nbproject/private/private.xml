@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/FlowElement.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/GrantedQoS.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/RequestedQoS.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/UserElement.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/FlowSpecElement.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/PolicyElement.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/SessionElement.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/impl/PolicyElementFacade.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/impl/PolicyElementFacadeREST.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/impl/SessionElementFacade.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/impl/SessionElementFacadeREST.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/inventory/resource/model/MediaElement.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/swagger/CustomConverter.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/swagger/SwaggerJaxrsConfig.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/conf/persistence.xml</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/impl/AbstractFacade.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/impl/BadUsageExceptionMapper.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/impl/CustomSwaggerSchemaConverter.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/impl/FacadeRestUtil.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/impl/JacksonConfigurator.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/impl/JsonError.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/impl/PATCH.java</file>
+        <file>file:/C:/Users/jmorey/Documents/NetBeansProjects/ONFNBIRealTimeMediaRI/src/java/org/tmf/dsmapi/common/exceptions/BadUsageException.java</file>
+    </open-files>
+</project-private>
