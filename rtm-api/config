@@ -1,0 +1,10 @@
+{
+	"markings" : "priority",
+	"controller1":{
+		"type" : "odl",
+		"ipAddress" : "192.168.56.107",
+		"webApiPort" : "8080",
+		"webApiUserName" : "admin",
+		"webApiPassword" : "admin"
+	}
+}

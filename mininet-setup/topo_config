@@ -1,0 +1,47 @@
+/* 
+*          MININET STARTUP SCRIPT 
+*		   for VTN-based RTM Network Service
+* 
+*   file: topo_config 
+* 
+*          NEC Europe Ltd. PROPRIETARY INFORMATION 
+* 
+* This software is supplied under the terms of a license agreement 
+* or nondisclosure agreement with NEC Europe Ltd. and may not be 
+* copied or disclosed except in accordance with the terms of that 
+* agreement. 
+* 
+*      Copyright (c) 2015 NEC Europe Ltd. All Rights Reserved. 
+* 
+* Authors: Savvas Zannettou 
+*          Fabian Schneider (fabian.schneider@neclab.eu)
+* 
+* NEC Europe Ltd. DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, 
+* INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY 
+* AND FITNESS FOR A PARTICULAR PURPOSE AND THE WARRANTY AGAINST LATENT 
+* DEFECTS, WITH RESPECT TO THE PROGRAM AND THE ACCOMPANYING 
+* DOCUMENTATION. 
+* 
+* No Liability For Consequential Damages IN NO EVENT SHALL NEC Europe 
+* Ltd., NEC Corporation OR ANY OF ITS SUBSIDIARIES BE LIABLE FOR ANY 
+* DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS 
+* OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF INFORMATION, OR 
+* OTHER PECUNIARY LOSS AND INDIRECT, CONSEQUENTIAL, INCIDENTAL, 
+* ECONOMIC OR PUNITIVE DAMAGES) ARISING OUT OF THE USE OF OR INABILITY 
+* TO USE THIS PROGRAM, EVEN IF NEC Europe Ltd. HAS BEEN ADVISED OF THE 
+* POSSIBILITY OF SUCH DAMAGES. 
+* 
+*     THIS HEADER MAY NOT BE EXTRACTED OR MODIFIED IN ANY WAY. 
+*/ 
+
+/* Topology Configuration File
+ * Specify the switch name you want to use and the number of hosts to be connected to the specified switch
+ * Switch name should be in the format 's<number>' and the number of hosts positive integer. Switch names should be unique
+ * The third column is used to specify if the link of the switch to the core switch should be rate limited
+ * Specify zero for unlimited bandwidth and integer positive number for mbits/s. for example 10 if you want 10 Mbits/s
+ * The format of these file should not have extra spaces as we split with space
+ * The last column is used for mapping purposes. The user should give a list of the ports that he wants to map in the VTN.
+ */
+s2 3 0 s2-eth1,s2-eth2,s2-eth4
+s3 6 10 s3-eth1,s3-eth2,s3-eth3,s3-eth4
+s4 5 0 s4-eth1,s4-eth2,s4-eth3
